@@ -1,0 +1,368 @@
+{
+  "main": {
+    "id": "19d08d69f8532161",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9eff694b4dad749",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "532b9707ec8a9da3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "pinned": true,
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
+          },
+          {
+            "id": "4dc8f3a7572380c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "josh java core.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "josh java core"
+            }
+          },
+          {
+            "id": "ce73fdbdb808dc08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "357537dfaee41675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SSS erp.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSS erp"
+            }
+          },
+          {
+            "id": "2c398af738173aa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scratch.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "scratch"
+            }
+          },
+          {
+            "id": "91ca6e6580e5af6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "scratch.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "scratch"
+            }
+          },
+          {
+            "id": "a8aefa37eeb6eb80",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NoteBook 1.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "NoteBook 1"
+            }
+          },
+          {
+            "id": "e80526e1f1c18e70",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "temp.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "temp"
+            }
+          },
+          {
+            "id": "d837dc42a0f6b7f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note- capacitor.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "note- capacitor"
+            }
+          },
+          {
+            "id": "ac18cd1f47f08883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "note- android permissions.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "note- android permissions"
+            }
+          },
+          {
+            "id": "5dcfed6677cff1b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          }
+        ],
+        "currentTab": 10
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f64cc9ff9a2c341c",
+    "type": "split",
+    "children": [
+      {
+        "id": "73a6718bd16e4e10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c39eef2aca0ccee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9bf0ac2574699bff",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8b59c7055c8cc376",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 368
+  },
+  "right": {
+    "id": "d2a1bec81d61d530",
+    "type": "split",
+    "children": [
+      {
+        "id": "a6a794156c543f9f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "03716f5aa7be469a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "65650d2bfa3fa5c1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "76838a7ced9d9f56",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6a7583320f417ba5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "22749660890a37bc",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 329
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-importer:Open Importer": false
+    }
+  },
+  "active": "22749660890a37bc",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Untitled 1.md",
+    "Untitled 1.base",
+    "Untitled.base",
+    "2026-07-15.md",
+    "Untitled.md",
+    "prep/dsa mcq prep.md",
+    "prep",
+    "CCC.md",
+    "sunbeam",
+    "sunbeam/project/pins.md",
+    "alumni notes.md",
+    "note- capacitor.md",
+    "note- android permissions.md",
+    "note- android capacitor.md",
+    "note- deployment.md",
+    "sunbeam/project/car service station/readme/QUICK_REFERENCE.md",
+    "trash 5.0.md",
+    "trash 4.1.md",
+    "NoteBook 1.md",
+    "temp 1.md",
+    "temp.md",
+    "prep/josh java core.md",
+    "prep/edag - 3d developer.md",
+    "web.md",
+    "SSS erp.md",
+    "Welcome.md",
+    "prep/quickinsure software developer.md",
+    "prep/rapid fire.md",
+    "sunbeam/project/mediaConnect.md",
+    "sunbeam/project/car service station",
+    "sunbeam/project/car service station/readme",
+    "sunbeam/project/car service station/ChatGPT Image Sep 10, 2025, 06_58_15 PM.png",
+    "sunbeam/project/car service station/ChatGPT Image Sep 10, 2025, 06_54_03 PM.png",
+    "sunbeam/project/car service station/ChatGPT Image Sep 10, 2025, 06_41_11 PM.png",
+    "sunbeam/project",
+    "sunbeam/java",
+    "notes"
+  ]
+}

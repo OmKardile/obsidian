@@ -1,0 +1,138 @@
+diff --git a/C:\Users\whysoserious\Desktop\ccpp\yt-shorts-bot\yt-shorts-bot\README.md b/C:\Users\whysoserious\Desktop\ccpp\yt-shorts-bot\yt-shorts-bot\README.md
+deleted file mode 100644
+--- a/C:\Users\whysoserious\Desktop\ccpp\yt-shorts-bot\yt-shorts-bot\README.md
++++ /dev/null
+@@ -1,133 +0,0 @@
+-# 🎬 YouTube Shorts Automation Bot
+-**100% free-to-run** · Gemini AI · gTTS voiceover · Pexels footage · YouTube upload
+-
+----
+-
+-## ✅ What's already configured
+-All API keys are baked into `.env` — only **one step left**: generate your YouTube refresh token.
+-
+----
+-
+-## 🚀 One-Time Setup (5 minutes)
+-
+-### Step 1 — Install dependencies
+-```bash
+-npm install
+-```
+-
+-### Step 2 — Generate YouTube Refresh Token
+-```bash
+-node src/auth.js
+-```
+-- It prints a Google auth URL → open it in your browser
+-- Sign in & allow access
+-- It prints: `YOUTUBE_REFRESH_TOKEN=1//0g...`
+-- Open `.env` and paste the token on the `YOUTUBE_REFRESH_TOKEN=` line
+-
+-### Step 3 — Run!
+-```bash
+-node pipeline.js "5 habits of highly productive people"
+-```
+-
+----
+-
+-## 📦 Pipeline
+-
+-```
+-Your topic (CLI arg)
+-  ↓
+-Gemini 1.5 Flash     →  Generates title, script, hashtags, search terms
+-  ↓
+-gTTS (free)          →  Converts script to voiceover.mp3
+-  ↓
+-Pexels API           →  Downloads 5 portrait stock video clips
+-  ↓
+-FFmpeg               →  Scales + assembles 1080×1920 Short with burn-in captions
+-  ↓
+-YouTube Data API v3  →  Uploads as public Short with metadata
+-```
+-
+----
+-
+-## 💸 Cost
+-
+-| Component        | Tool               | Cost       |
+-|------------------|--------------------|------------|
+-| Script           | Gemini 1.5 Flash   | Free       |
+-| Voiceover        | gTTS               | Free       |
+-| Stock footage    | Pexels             | Free       |
+-| Video editing    | FFmpeg             | Free       |
+-| Upload           | YouTube API        | Free       |
+-| **Total**        |                    | **₹0**     |
+-
+----
+-
+-## 📁 Project Structure
+-
+-```
+-yt-shorts-bot/
+-├── pipeline.js               ← Main entry point
+-├── .env                      ← All API keys (pre-filled)
+-├── package.json
+-├── src/
+-│   ├── generateScript.js     ← Gemini 1.5 Flash → script JSON
+-│   ├── generateVoiceover.js  ← gTTS → voiceover.mp3
+-│   ├── fetchFootage.js       ← Pexels → portrait clips
+-│   ├── createVideo.js        ← FFmpeg → 1080×1920 MP4 + captions
+-│   ├── uploadYoutube.js      ← YouTube upload
+-│   └── auth.js               ← One-time OAuth token setup
+-└── assets/
+-    ├── work/                 ← Temp files (auto-cleaned)
+-    └── output/               ← Final MP4 files saved here
+-```
+-
+----
+-
+-## 🔁 Daily Automation (cron)
+-
+-Post a new Short every day at 10 AM:
+-```bash
+-crontab -e
+-```
+-Add:
+-```
+-0 10 * * * cd /path/to/yt-shorts-bot && node pipeline.js "$(node topics.js)"
+-```
+-
+-Create `topics.js`:
+-```js
+-const topics = [
+-  '5 habits of highly productive people',
+-  '3 money mistakes to avoid in your 20s',
+-  'How to learn anything 10x faster',
+-  '7 signs you are smarter than average',
+-  '5 things you should never Google',
+-];
+-console.log(topics[new Date().getDay() % topics.length]);
+-```
+-
+----
+-
+-## 🎙️ Better Voice (optional upgrade)
+-
+-Install Microsoft Neural TTS (still free):
+-```bash
+-pip install edge-tts
+-```
+-
+-Replace `src/generateVoiceover.js` with:
+-```js
+-const { exec } = require('child_process');
+-
+-async function generateVoiceover(script, outputPath) {
+-  console.log('🎙️  Generating voiceover (edge-tts)...');
+-  return new Promise((resolve, reject) => {
+-    const safe = script.replace(/"/g, "'");
+-    exec(
+-      `edge-tts --voice en-US-GuyNeural --text "${safe}" --write-media "${outputPath}"`,
+-      (err) => err ? reject(err) : resolve(outputPath)
+-    );
+-  });
+-}
+-module.exports = { generateVoiceover };
+-```
