@@ -1,4 +1,3 @@
-
 # Dev Notes & Setup
 
 ## Jupyter / Frontend Setup
