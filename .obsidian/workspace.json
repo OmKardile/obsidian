@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notebook/revision.md",
+                "file": "notebook/dates revision.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "revision"
+              "title": "dates revision"
             }
           }
         ],
@@ -219,8 +219,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 368,
-    "collapsed": true
+    "width": 368
   },
   "right": {
     "id": "d2a1bec81d61d530",
@@ -283,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notebook/revision.md",
+                "file": "notebook/dates revision.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of revision"
+              "title": "Outline of dates revision"
             }
           },
           {
@@ -325,7 +324,7 @@
   "active": "fa705dd845873e38",
   "lastOpenFiles": [
     "temp 1.md",
-    "notebook/revision.md",
+    "notebook/dates revision.md",
     "linkedin-chatgpt-master-prompt.md",
     "notebook/NoteBook 1.md",
     "temp.md",
