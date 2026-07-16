@@ -143,30 +143,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note- android permissions.md",
+                "file": "notebook/note- android permissions.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "note- android permissions"
             }
-          },
-          {
-            "id": "5dcfed6677cff1b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -324,38 +310,40 @@
       "obsidian-importer:Open Importer": false
     }
   },
-  "active": "22749660890a37bc",
+  "active": "2c39eef2aca0ccee",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "Untitled 1.md",
-    "Untitled 1.base",
+    "notebook",
+    "notebook/NoteBook 1.md",
+    "web.md",
+    "notebook/note- deployment.md",
+    "notebook/note- capacitor.md",
+    "notebook/note- android permissions.md",
+    "notebook/note- android capacitor.md",
     "Untitled.base",
-    "2026-07-15.md",
+    "NoteBook 1.md",
+    "Welcome.md",
+    "prep/web.md",
     "Untitled.md",
+    "Untitled 1.md",
+    "notebook/note- deployment.md",
+    "notebook/note- android capacitor.md",
+    "CCC.md",
+    "notebook",
+    "notebook/note- capacitor.md",
+    "temp 1.md",
+    "Untitled.canvas",
+    "Untitled 1.base",
+    "2026-07-15.md",
     "prep/dsa mcq prep.md",
     "prep",
-    "CCC.md",
     "sunbeam",
     "sunbeam/project/pins.md",
     "alumni notes.md",
-    "note- capacitor.md",
-    "note- android permissions.md",
-    "note- android capacitor.md",
-    "note- deployment.md",
+    "notebook/note- android permissions.md",
     "sunbeam/project/car service station/readme/QUICK_REFERENCE.md",
     "trash 5.0.md",
     "trash 4.1.md",
-    "NoteBook 1.md",
-    "temp 1.md",
     "temp.md",
-    "prep/josh java core.md",
-    "prep/edag - 3d developer.md",
-    "web.md",
-    "SSS erp.md",
-    "Welcome.md",
-    "prep/quickinsure software developer.md",
-    "prep/rapid fire.md",
-    "sunbeam/project/mediaConnect.md",
     "sunbeam/project/car service station",
     "sunbeam/project/car service station/readme",
     "sunbeam/project/car service station/ChatGPT Image Sep 10, 2025, 06_58_15 PM.png",

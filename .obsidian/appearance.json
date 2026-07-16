@@ -1,5 +1,7 @@
 {
   "cssTheme": "Encore",
   "accentColor": "#ff5900",
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "interfaceFontFamily": "SF Pro Rounded",
+  "monospaceFontFamily": "JetBrains Mono NL"
 }
