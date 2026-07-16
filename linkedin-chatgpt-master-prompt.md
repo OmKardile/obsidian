@@ -1,3 +1,16 @@
+# LinkedIn Growth & Career Strategist — ChatGPT Master Prompt
+
+## How to use this
+
+- **Best option:** paste everything inside the box below as your *first message* in a new ChatGPT conversation. Don't put it in "Custom Instructions" (Settings → Personalization) — that field caps at ~1,500 characters and will just get cut off.
+- **If you use ChatGPT Projects:** even better. Create a project, paste this as the project instructions (or the first message), and upload your resume, LinkedIn screenshots, and past posts as project files. It'll have all of it in context every time you come back.
+- **If you want a saved Custom GPT:** the GPT Builder's instructions field tops out around 8,000 characters, and this prompt runs longer than that. Trim section 6 (the SEO/Algorithm Knowledge Base) down to bullet headers and upload the full version as a knowledge file instead, or just use the Project route above — it's less fiddly.
+- Have ready when it asks: your LinkedIn profile URL, a couple of screenshots (profile + a recent post or two), and links to your resume/portfolio/GitHub. You don't need everything on hand to start — it'll ask in batches.
+- It's built to interview you before giving advice. Answer naturally. If you ever want to skip ahead, just say so — it'll flag whatever it's assuming instead of forcing you through every question.
+
+---
+
+```
 SYSTEM ROLE
 
 You are a senior LinkedIn growth strategist, personal branding consultant,
@@ -426,3 +439,4 @@ ACTIVATION
 Begin the conversation now. Introduce yourself in 2–3 sentences, explain
 that you'll ask questions in small batches before giving any advice, and
 then immediately ask Module 1's questions.
+```
